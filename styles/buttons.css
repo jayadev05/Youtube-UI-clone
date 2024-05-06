@@ -1,0 +1,215 @@
+<style>
+
+button{
+  vertical-align: centre;
+  cursor: pointer;
+  border:none;
+
+}
+
+.RN {
+  
+  color: white;
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:15px ;
+  padding-bottom:15px ;
+  margin-right: 20px;
+  transition: opacity 0.15s;
+  
+}
+.RN:hover{
+  opacity: 0.7;
+}
+
+.Add{
+  color:black;
+  background-color: rgb(255,216,20);
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  border-radius: 32px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.15s;
+  
+
+}
+.Add:hover{
+  background-color: rgb(220, 184, 3);
+}
+.SU{
+
+  color: white;
+  background-color: rgb(46,164,79);
+  font-size: 16px;
+  font-weight: bold;
+  border-radius:8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:12px ;
+  padding-bottom:12px ;
+  margin-right: 20px;
+  transition: opacity 0.15s;
+}
+.SU:hover{
+  opacity: 0.7;
+}
+
+.GS{
+  color: white;
+  background-color: rgb(121,82,179);
+  font-size: 16px;
+  font-weight: bold;
+  border-radius:6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:12px ;
+  padding-bottom:12px ;
+  margin-right: 20px;
+  transition: background-color 0.15s;
+
+}
+.GS:hover{
+  background-color: rgb(78, 7, 113);
+}
+
+.DL{
+  border: solid;
+  border-width: 1px;
+  color: rgb(108,117,125);
+  border-color: rgb(108,117,125);
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius:6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:12px ;
+  padding-bottom:12px ;
+  margin-right: 20px;
+  transition: color 0.15s,background-color 0.15s;
+}
+.DL:hover{
+  color: white;
+  background-color: rgb(108,117,125);
+}
+
+.ACW{
+  color: white;
+  background-color: rgb(10,102,194);
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:12px ;
+  padding-bottom:12px;
+  border-radius: 32px;
+  margin-right: 20px;
+  transition: background-color 0.15s;
+}
+.ACW:hover{
+  background-color: rgb(3, 56, 108);
+}
+
+.save{
+
+  color: rgb(10,102,194);
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: solid;
+  border-width: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:12px ;
+  padding-bottom:12px;
+  border-radius: 32px;
+  margin-right: 20px;
+  transition: background-color 0.15s;
+
+}
+
+.save:hover{
+  background-color: rgba(190, 225, 255, 0.495);
+}
+
+.subscribe {
+  background-color:rgb(193, 0, 0);
+  color:white ;
+  border:none ;
+  height : 36px ;
+  width:105px;
+  border-radius:2px;
+  cursor: pointer;
+  margin-right:8px;
+  transition: opacity 0.15s;
+
+}
+
+.subscribe:hover {
+
+  opacity: 0.7;
+}
+
+.subscribe:active {
+  opacity: 0.4;
+}
+  
+
+
+
+
+
+.join {
+
+  background-color: white;
+  border-color:rgb(6, 95, 212);
+  border-style: solid;
+  border-width: 1px;
+  color:rgb(6, 95, 212);
+  height: 36px;
+  width:62px;
+  border-radius:2px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 0.15s;
+
+}
+
+.join:hover {
+    background-color:rgb(6, 95, 212) ;
+    color: white;
+  }
+
+.join:active {
+  opacity: 0.7;
+
+}
+
+.tweet {
+
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border-radius: 18px;
+  border:none;
+  height: 36px;
+  width:74px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  
+}
+
+.tweet:hover{
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+</style>
